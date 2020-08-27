@@ -456,6 +456,10 @@ https://test.com/test.pdf?index=15
 
 `Primitive Type`에 대한 클래스 표현이라고 할 수 있다.
 
+# `View.post()`와 `Handler`와의 차이점을 설명하시오
+
+`View.post()`는 `handler`와는 달리 `View`가 `attach` 되지 않으면 **`post`된 모든 `runnable`들을 `View`가 `attach` 될 때 까지 연기한다.**
+
 # `Thread`간 통신 방법에 대하여 설명하시오
 > goto [Handler](https://github.com/sungbin5304/Android-Interview-QnA-2020#handler%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4)
 
@@ -475,6 +479,10 @@ https://test.com/test.pdf?index=15
 3. `Firebase server`에서 받은 `key`로 어떤 어플리케이션인지 구분 후, 데이터를 `notification`으로 호출함 <br/>
 
 # `ABI`에 대하여 설명하시오
+> `Application Binary Interface`
+
+
+`Runtime`에 시스템과 앱의 머신코드가 어떻게 상호작용할지를 기술한 인터페이스.
 
 # `HTTP` 라이브러리들의 역사에 대하여 설명하시오
 2009년 : `Android` 발표, `HttpClient`, 아파치의 `DefaultHttpClient` 사용<br/>
