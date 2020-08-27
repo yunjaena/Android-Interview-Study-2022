@@ -293,9 +293,6 @@
 **장점** : `OS`에 구애받지 않고, 해당 `OS`에 맞는 기계어로 번역됨<br/>
 **단점** : `Native`언어들에 비해 속도가 느림
 
-### `JVM`의 작동 방식에 대하여 설명하시오
-
-
 ## DVM
 > `dex-file`을 `Dalvik Machine` 위에 올리는 방식
 
@@ -466,7 +463,16 @@ https://test.com/test.pdf?index=15
 [`Singleton`](https://github.com/sungbin5304/Programming-Study#%EC%8B%B1%EA%B8%80%ED%86%A4)을 이용하거나 `intent`를 사용한다.
 
 # `FCM`의 원리에 대하여 설명하시오
+## 1. 어플리케이션을 위한 `key`를 `FCM 서버`에서 얻음
+1. 어플리케이션이 설치되는 순간 `firebase 서버`에 `key` 휙득을 위한 요청을 보냄 <br/>
+2. `Firebase 서버`에서 `key`를 만들어서 어플리케이션으로 전달함 <br/>
+3. 어플리케이션으로 전달된 `key`를 `google server`에 전송함 <br/>
+4. `Google server`에서 이 `key`를 `database`에 저장함 <br/>
 
+## 2. `Google 서버`에서 어플리케이션으로 `notification`을 발생시킴
+1. `Google server`에서 어플리케이션으로 데이터를 전달하기 위해 `key`를 얻음 <br/>
+2. `Key`와 데이터를 `firebase server`로 보냄 (`http 통신`이 이용됨) <br/>
+3. `Firebase server`에서 받은 `key`로 어떤 어플리케이션인지 구분 후, 데이터를 `notification`으로 호출함 <br/>
 
 # `ABI`에 대하여 설명하시오
 
