@@ -558,10 +558,23 @@ https://test.com/test.pdf?index=15
 
 이미지를 확대하여 보여주는 기능을 구현할 때 이미지 파일을 `drawable`에 넣으면 이미지 자체가 확대되서 이미지가 손상되지만, 이미지 파일을 `mipmap`에 넣어주게 되면 **확대됬을때 적당한 크기를 가지는 이미지 파일을 보여준다.**
 
+# `ReactiveX` 관련
+## `Cold`에 대해서 설명하시오
+> 대부분의 `operator`의 기본값
+
+`Stream`의 전과 후를 **연결만 시켜준다.**<br/>
+`Observer`가 등록되야 작동을 시작한다.<br/>
+
+## `Hot`에 대해서 설명하시오
+`Stream`에서 값을 계속 발생시킨다.
+`Observer`가 등록되있지 않아도 작동된다.<br/>
+
+# `Coroutines` 관련
+## `Flow`에 관하여 설명하시오
+`비동기`로 동작하면서 여러가지의 값을 반환하는 `Coroutines Builder` 이다.
+
 -----
 
 # `Issue`를 통한 오타/오류/내용 추가 지적 환영합니다 :)
 ## 잘 보셨다면, `Star`와 `Fork` 부탁드려요!
 ### 저와 이 난잡한 `repository`를 보시는 분들의 `면접 합격`을 기원합니다.
-
-# Successful Interview with Coding :)
