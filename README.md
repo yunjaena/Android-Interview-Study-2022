@@ -573,6 +573,8 @@ https://test.com/test.pdf?index=15
 ## `Flow`에 관하여 설명하시오
 `비동기`로 동작하면서 여러가지의 값을 반환하는 `Coroutines Builder` 이다.
 
+# `Android`와 `AndroidX`의 차이점을 설명하시오
+
 -----
 
 # `Issue`를 통한 오타/오류/내용 추가 지적 환영합니다 :)
