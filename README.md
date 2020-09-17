@@ -575,6 +575,8 @@ https://test.com/test.pdf?index=15
 
 # `Android`와 `AndroidX`의 차이점을 설명하시오
 
+# 코틀린에서 `also`, `apply`, `let`, `let`, `run`의 차이점을 설명하시오
+
 -----
 
 # `Issue`를 통한 오타/오류/내용 추가 지적 환영합니다 :)
