@@ -566,7 +566,7 @@ https://test.com/test.pdf?index=15
 `Observer`가 등록되야 작동을 시작한다.<br/>
 
 ## `Hot`에 대해서 설명하시오
-`Stream`에서 값을 계속 발생시킨다.
+`Stream`에서 값을 계속 발생시킨다.<br/>
 `Observer`가 등록되있지 않아도 작동된다.<br/>
 
 # `Coroutines` 관련
