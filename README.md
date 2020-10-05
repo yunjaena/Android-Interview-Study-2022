@@ -14,9 +14,9 @@
 > **만약 A - > B 갔다가 다시 B -> A 로 이전 `stack`으로 돌아오는 `activity`일 경우, `onCreate` 대신 `onRestart`가 호출됨**
 2. `onStart` : `Activity`가 멈췄다가 보여지기 **바로 전**에 호출됨
 3. `onResume` : `Activity`가 사용자와 상호 작용하기 **바로 전**에 호출됨
-> **다른 `Activity`가 `ForeGround`로 보여질 때 호출됨**
+> **다른 `Activity`가 `Foreground`로 보여질 때 호출됨**
 4. `onPause` : 다른 `Activity`가 보여질 때 호출됨
-> **다른 `Activity`가 `BackGround`로 보여질 때 호출됨**
+> **다른 `Activity`가 `Background`로 보여질 때 호출됨**
 5. `onStop` : `Activity`가 더 이상 보여지지 않을 떄 호출됨
 > 이는 메모리가 부족하여 종료될 시에는 호출되지 **않을** 수 있음<br/>
 > 또한 이는 **다른 `Activity`들의 생명주기 작업이 끝나야 호출**됨<br/>
@@ -25,10 +25,10 @@
 6. `onDestroy` : `Activity`가 소멸될 때(`finish()`) 호출됨
 > **`Stack`에서 소멸될 때 호출**
 
-### ForeGround
+### Foreground
 현재 `Activity` **밖에서** 실행되는 것
 
-### BackGround
+### Background
 현재 `Activity` **안에서** 다른 작업과 **동시**에 뒤에서 실행되는 것
 
 ### 앱 사용 도중에 카카오톡으로 부터 알림이 오면,<br/>사용중인 앱의 `TopActivity`의 `Life-Cycle` 상태는 어떻게 되나요?
