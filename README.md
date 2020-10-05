@@ -573,7 +573,9 @@ https://test.com/test.pdf?index=15
 ## `Flow`에 관하여 설명하시오
 `비동기`로 동작하면서 여러가지의 값을 반환하는 `Coroutines Builder` 이다.
 
-# `Android`와 `AndroidX`의 차이점을 설명하시오
+# `AndroidX`가 무엇인지 설명하시오
+기존 `Android` 지원 라이브러리의 성능을 크게 개선시킨 것<br/>
+`AndroidX` 패키지는 기존 `Android` 지원 라이브러리의 동일한 기능을 제공하여 기존 라이브러리를 완전히 대체한다.
 
 # 코틀린에서 `also`, `apply`, `with`, `let`, `run`의 차이점을 설명하시오
 
