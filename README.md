@@ -577,7 +577,10 @@ https://test.com/test.pdf?index=15
 기존 `Android` 지원 라이브러리의 성능을 크게 개선시킨 것<br/>
 `AndroidX` 패키지는 기존 `Android` 지원 라이브러리의 동일한 기능을 제공하여 기존 라이브러리를 완전히 대체한다.
 
-# 코틀린에서 `also`, `apply`, `with`, `let`, `run`의 차이점을 설명하시오
+# 코틀린 관련
+## `also`, `apply`, `with`, `let`, `run`의 차이점을 설명하시오
+
+## `object`와 `companion object`에 대해서 설명하시오
 
 -----
 
