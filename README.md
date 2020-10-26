@@ -529,10 +529,6 @@ https://test.com/test.pdf?index=15
 자신의 `context`가 아닌 다른 `context`에 접근할 때 사용된다.<br/>
 `Context`를 생성할 때 만들어지는 `context`들의 기본 `context`를 반환한다.
 
-# `Build Process`에 대하여 설명하시오
-
-# `Build Type`에 대하여 설명하시오
-
 # `LMK`에 대하여 설명하시오
 
 ## 목적
