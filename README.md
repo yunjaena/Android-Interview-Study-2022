@@ -1,4 +1,4 @@
-# Android-Interview-Study-2020 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsungbin5304%2FAndroid-Interview-QnA-2020&count_bg=%2340B7EA&title_bg=%23555555&icon=iconify.svg&icon_color=%23FFFFFF&title=see+this+repo&edge_flat=false)](https://hits.seeyoufarm.com)
+# Android-Interview-Study-2021 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsungbin5304%2FAndroid-Interview-QnA-2020&count_bg=%2340B7EA&title_bg=%23555555&icon=iconify.svg&icon_color=%23FFFFFF&title=see+this+repo&edge_flat=false)](https://hits.seeyoufarm.com)
 🤓 2021~ 안드로이드 취직 대비 면접 형식 공부 기록터 📖<br/><br/>
 *끝에 2021는 그냥 단순히 2021년에 작성되었음을 뜻하기 위해서다 (사실 2020년부터 작성 시작)*<br/>
 
