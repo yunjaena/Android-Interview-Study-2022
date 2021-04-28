@@ -574,6 +574,7 @@ https://test.com/test.pdf?index=15
 
 # `AndroidX`가 무엇인지 설명하시오
 기존 `Android` 지원 라이브러리의 성능을 크게 개선시킨 것<br/>
+`support`라이브러리와 `AppCompoat` 라이브러리들이 `androidx`로 하나로 합쳐졌다.<br/>
 `AndroidX` 패키지는 기존 `Android` 지원 라이브러리의 동일한 기능을 제공하여 기존 라이브러리를 완전히 대체한다.
 
 # 코틀린 관련
