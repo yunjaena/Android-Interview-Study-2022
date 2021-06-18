@@ -573,6 +573,10 @@ https://test.com/test.pdf?index=15
 ## `Flow`에 관하여 설명하시오
 `비동기`로 동작하면서 여러가지의 값을 반환하는 `Coroutines Builder` 이다.
 
+## `suspend`란?
+> [[stackoverflow]](https://stackoverflow.com/questions/47871868/what-does-the-suspend-function-mean-in-a-kotlin-coroutine) <br/>
+> 추후 정리 예정
+
 # `AndroidX`가 무엇인지 설명하시오
 기존 `Android` 지원 라이브러리의 성능을 크게 개선시킨 것<br/>
 `support`라이브러리와 `AppCompoat` 라이브러리들이 `androidx`로 하나로 합쳐졌다.<br/>
