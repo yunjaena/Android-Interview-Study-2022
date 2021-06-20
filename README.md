@@ -18,7 +18,7 @@
 > **만약 A - > B 갔다가 다시 B -> A 로 이전 `stack`으로 돌아오는 `activity`일 경우, `onCreate` 대신 `onRestart`가 호출됨**
 2. `onStart` : `Activity`가 보여지기 위한 모든 작업들의 초기화(`onCreate`)가 끝났고, 상호작용 하기 전에 호출됨
 3. `onResume` : `Activity`가 사용자와 상호작용이 시작됐을 때 호출됨
-4. `onPause` : 다른 `Activity`가 보여질 때 호출됨
+4. `onPause` : 다른 `Activity`가 보여져서 현재의 `Actvity`가 가려졌을 때(보이지 않을 ) 호출됨
 5. `onStop` : `Activity`가 더 이상 보여지지 않을 떄 호출됨
 > 이는 메모리가 부족하여 종료될 시에는 호출되지 **않을** 수 있음<br/>
 > 또한 이는 **다른 `Activity`들의 생명주기 작업이 끝나야 호출**됨<br/>
