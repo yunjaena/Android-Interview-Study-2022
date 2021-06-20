@@ -117,7 +117,7 @@
 
 ## `ListView`에서의 `ViewHolder` 패턴
 > `ListView`는 `ViewHolder` 사용이 **선택임**
-1. `override fun getView(position: Int, convertView: View, parent: ViewGroup)` 에서 `convertView`가 `null` 일 때만 **최초 한 번** `inflate`하고 `ViewHolder`룰 생성해 각 요소를 `findViewById`로 연결시켜 저장하고 `convertView`에 `tag`로 저장시킴
+1. `getView` 에서 `convertView`가 `null` 일 때만 **최초 한 번** `inflate`하고 `ViewHolder`룰 생성해 각 요소를 `findViewById`로 연결시켜 저장하고 `convertView`에 `tag`로 저장시킴
 2. 그리고 다음부터는 `ViewHolder`를 `convertView`의 `tag`로 불러와서 재사용함
 
 ## `RecyclerView`에서의 `ViewHolder` 패턴
