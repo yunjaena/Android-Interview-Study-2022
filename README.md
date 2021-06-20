@@ -14,9 +14,9 @@
 사용자가 앱을 `탐색하고`, `나가고`, `다시 들어올 때` 등등의 **상태 변화**에 따라서 이를 앱에서 알아차릴 수 있게 제공하는 `Callback`.
 
 ## Activity
-1. `onCreate` : `Activity`가 생성될 때 호출되며 사용자 `interface` 초기화에 사용됨
+1. `onCreate` : `Activity`가 **최초** 생성되고, 필요한 작업의 초기화를 수행하기 위해 호출됨
 > **만약 A - > B 갔다가 다시 B -> A 로 이전 `stack`으로 돌아오는 `activity`일 경우, `onCreate` 대신 `onRestart`가 호출됨**
-2. `onStart` : `Activity`가 멈췄다가 보여지기 **바로 전**에 호출됨
+2. `onStart` : `Activity`가 보여지기 위한 모든 작업들의 초기화(`onCreate`)가 끝났고, 보여지기 전에 호출됨
 3. `onResume` : `Activity`가 사용자와 상호 작용하기 **바로 전**에 호출됨
 > **다른 `Activity`가 `Foreground`로 보여질 때 호출됨**
 4. `onPause` : 다른 `Activity`가 보여질 때 호출됨
@@ -41,22 +41,15 @@
 ### `onRestart`는 언제 호출되나요?
 **`onStart` 호출 전에**, 가려진 `Activity`가 다시 보여질 때 호출됨
 
-### `onCreate`와 `onStart`의 차이점은 무엇인가요?
-### onCreate
-`Activity`가 최초 생성되고, 필요한 작업의 초기화를 수행함
-
-### onStart
-`Activity`가 보여지기 위한 모든 작업들의 초기화가 끝났고, 보여지기 전에 호출됨
-
 ### `onPause`와 `onStop`없이 `onDestory`가 호출되기 위한 조건이 무엇인가요?
 `finish()` 코드 사용
 
 ## Application
-1. `onCreate`: 다른 클래스들이 실행되기 전에 제일 먼저 실행됨
-2. `onLowMemory`: 안드로이드의 메모리가 부족할 때 실행됨
-3. `onTrimMemory`: 앱이 잘 실행되고 있는데, 안드로이드가 메모리가 부족하여 필요없는 메모리의 정리가 필요할 때 실행됨
-4. `onTerminuate`: 안드로이드 에뮬레이터 환경에서만 실행되며, 에뮬레이터가 꺼졌을 때 실행됨
-5. `onConfigurationChanged`: 안드로이드 [`구성요소`](https://support.google.com/android/answer/9021432?hl=en-GB)가 변경되었을 때 실행됨
+1. `onCreate`: 다른 클래스들이 실행되기 전에 제일 먼저 호출됨
+2. `onLowMemory`: 안드로이드의 메모리가 부족할 때 호출됨
+3. `onTrimMemory`: 앱이 잘 실행되고 있는데, 안드로이드가 메모리가 부족하여 필요없는 메모리의 정리가 필요할 때 호출됨
+4. `onTerminuate`: 안드로이드 에뮬레이터 환경에서만 실행되며, 에뮬레이터가 꺼졌을 때 호출됨
+5. `onConfigurationChanged`: 안드로이드 [`구성요소`](https://support.google.com/android/answer/9021432?hl=en-GB)가 변경되었을 때 호출됨
 
 ## Layout
 1. `onAttachedToWindow` : `View`가 `Window`에 연결되면 호출됨
