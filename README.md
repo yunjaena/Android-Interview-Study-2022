@@ -51,6 +51,13 @@
 ### `onPause`와 `onStop`없이 `onDestory`가 호출되기 위한 조건이 무엇인가요?
 `finish()` 코드 사용
 
+## Application
+1. `onCreate`: 다른 클래스들이 실행되기 전에 제일 먼저 실행됨
+2. `onLowMemory`: 안드로이드의 메모리가 부족할 때 실행됨
+3. `onTrimMemory`: 앱이 잘 실행되고 있는데, 안드로이드가 메모리가 부족하여 필요없는 메모리의 정리가 필요할 때 실행됨
+4. `onTerminuate`: 안드로이드 에뮬레이터 환경에서만 실행되며, 에뮬레이터가 꺼졌을 때 실행됨
+5. `onConfigurationChanged`: 안드로이드 [`구성요소`](https://support.google.com/android/answer/9021432?hl=en-GB)가 변경되었을 때 실행됨
+
 ## Layout
 1. `onAttachedToWindow` : `View`가 `Window`에 연결되면 호출됨
 > `Drawing`할 표면을 알고있는 단계 -> `listener` 설정 가능
