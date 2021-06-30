@@ -38,7 +38,7 @@
 ### `onRestart`는 언제 호출되나요?
 **`onStart` 호출 전에**, 가려진 `Activity`가 다시 보여질 때 호출됨
 
-### `onPause`와 `onStop`없이 `onDestory`가 호출되기 위한 조건이 무엇인가요?
+### `onPause`와 `onStop`없이 `onDestroy`가 호출되기 위한 조건이 무엇인가요?
 `finish()` 코드 사용
 
 ## Application
