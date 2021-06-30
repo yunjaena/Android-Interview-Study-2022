@@ -23,8 +23,7 @@
 > 이는 메모리가 부족하여 종료될 시에는 호출되지 **않을** 수 있음<br/>
 > 또한 이는 **다른 `Activity`들의 생명주기 작업이 끝나야 호출**됨<br/>
 > 마지막으로 이 상태에서 `onSaveInstanceState()` 메소드가 호출됨
-6. `onDestroy` : `Activity`가 소멸될 때(`finish()`) 호출됨
-> **`Stack`에서 소멸될 때 호출**
+6. [`onDestroy`](https://stackoverflow.com/a/4449988/14299073) : 시스템 리소스 자원(CPU, 메모리 등등)이 부족해져 앱이 종료되거나, `finish()` 코드를 실행했을 때 호출됨
 
 ### Foreground
 현재 `Activity` **밖에서** 실행되는 것
@@ -37,9 +36,6 @@
 
 ### `onRestart`는 언제 호출되나요?
 **`onStart` 호출 전에**, 가려진 `Activity`가 다시 보여질 때 호출됨
-
-### `onPause`와 `onStop`없이 `onDestroy`가 호출되기 위한 조건이 무엇인가요?
-`finish()` 코드 사용
 
 ## Application
 1. `onCreate`: 다른 클래스들이 실행되기 전에 제일 먼저 호출됨
