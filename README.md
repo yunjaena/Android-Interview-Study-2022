@@ -26,7 +26,7 @@
 5. `onStop` : `Activity`가 더 이상 보여지지 않을 떄 호출됨
 > 이는 메모리가 부족하여 종료될 시에는 호출되지 **않을** 수 있음<br/>
 > 또한 이는 **다른 `Activity`들의 생명주기 작업이 끝나야 호출**됨<br/>
-> 마지막으로 이 상태에서 `onSaveInstanceState()` 메소드가 호출됨
+> 마지막으로 이 상태에서 `onSaveInstanceState()`가 호출됨
 6. [`onDestroy`](https://stackoverflow.com/a/4449988/14299073) : 시스템 리소스 자원(CPU, 메모리 등등)이 부족해져 앱이 종료되거나, `finish()` 코드를 실행했을 때 호출됨
 
 ### Foreground
