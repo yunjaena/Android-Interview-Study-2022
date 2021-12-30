@@ -1,14 +1,12 @@
 # Android-Interview-Study-2022 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsungbin5304%2FAndroid-Interview-QnA-2020&count_bg=%2340B7EA&title_bg=%23555555&icon=iconify.svg&icon_color=%23FFFFFF&title=study+with+this+repo&edge_flat=false)](https://hits.seeyoufarm.com)
 
-🤓 2021~ 안드로이드 취직 대비 면접 형식 공부 기록터 📖<br/><br/>
+🤓 2021~ 안드로이드 취직 대비 면접 형식 공부 기록터 📖
 
 > 그냥 면접 공부라고 가장한 안드로이드 공부 기록터 <br/>
 > >
 > [[`공부할거야!` 시리즈 모음]](https://github.com/jisungbin/x-study)
 > 
 > **내용 정리 필요**
-
-추가자료: [android-study](https://github.com/jisungbin/android-study)
 
 -----
 
