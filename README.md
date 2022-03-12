@@ -3,7 +3,7 @@
 🤓 2021~ 안드로이드 취직 대비 공부 기록터 📖
 
 > [[`공부할거야!` 시리즈 모음]](https://github.com/jisungbin/x-study)
-> 
+>
 > **가독성 정리 필요**
 
 -----
@@ -59,7 +59,7 @@
 
 > `Drawing`할 표면을 알고있는 단계 -> `listener` 설정 가능
 
-2. `measure` 
+2. `measure`
 3. `onMeasure` : `View`의 `Size`를 확인하기 위해 호출됨
 
 > `ViewGroup`일 경우 계속해서 `Child View`에 대한 `Size` 측정을 하고, 그에 대한 결과로 자신의 `Size`를 결정
@@ -116,7 +116,7 @@
 
 ## Fragment
 
-1. `onAttach` : `Fragment`가 `Activity`에 `attach`될 때 
+1. `onAttach` : `Fragment`가 `Activity`에 `attach`될 때
 
 > `argument`로 `Context`가 들어옴
 
@@ -142,7 +142,7 @@
 8. `onStop` : 다른 `Activity`가 화면을 완전히 가림
 9. `onDestroyView` : `Fragment`와 관련된 `View`들이 제거될 때 호출됨
 10. `onDestroy` : `Fragment`가 소멸될 때 호출됨
-11. `onDetach` : `Fragment`가 `Activity`로 부터 해제되어질 때 
+11. `onDetach` : `Fragment`가 `Activity`로 부터 해제되어질 때
 
 # `ViewHolder`에 대하여 설명하시오
 
@@ -180,7 +180,7 @@
 
 # `Intent`에 대하여 설명하시오
 
-`Component`(`Activity`, `Service`, `Broadcast Receiver`)간에 통신을 하기 위한 메시지 
+`Component`(`Activity`, `Service`, `Broadcast Receiver`)간에 통신을 하기 위한 메시지
 
 ## Intent Type
 
@@ -295,14 +295,14 @@
 
 > 문자열 연산이 **적고** `멀티쓰레드`일 경우 사용
 
-## StringBuilder
+## StringBuffer
 
 기본적으로 `mutable`이다.<br/>
 **그리고 `쓰레드 동기화`가 가능하다**.
 
 > 문자열 연산이 **많고** `멀티쓰레드` 환경일 경우 사용
 
-## StringBuffer
+## StringBuilder
 
 기본적으로 `mutable`이다.<br/>
 **그리고 `쓰레드 동기화`가 불가능하다**.
